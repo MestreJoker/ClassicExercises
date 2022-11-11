@@ -11,22 +11,14 @@ public class Fibonacci {
 
 		System.out.println("Digite o termo");
 		termo = leia.nextInt();
-		System.out.println("A sequência de Fibonaci com o termo desejado é: ");
+		System.out.println("A sequÃªncia de Fibonaci com o termo desejado Ã©: ");
 		System.out.print(n1+" ");
 		
 	    for(int i = 1 ; i<termo; i++){
 	    n1 = n1 + n2;
 	    n2 = n1 - n2;
 	    System.out.print(n1+" ");
-}
-
-
-
-
-
-
-
-
+	    }
 
 	}
 
