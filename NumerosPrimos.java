@@ -8,19 +8,19 @@ public class NumerosPrimos {
 		Scanner leia = new Scanner(System.in);		
 		int primo = 0, num;
 		
-		System.out.println("Digite um número:");
+		System.out.println("Digite um nÃºmero:");
 		num = leia.nextInt();
 		
 		for (int i = 1; i <= num; i++) {
 			
 			if (num % i == 0) {
-				primo += 1;
+				primo = primo + 1;
 			}
 		}
 		if (primo == 2) {
-			System.out.println("O número "+num + " é primo");
+			System.out.println("O nÃºmero "+num + " Ã© primo");
 		} else {
-			System.out.println("O número "+num + " não é primo");
+			System.out.println("O nÃºmero "+num + " nÃ£o Ã© primo");
 
 		}
 	}
